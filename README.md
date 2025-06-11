@@ -9,7 +9,7 @@ Dataset for research on **confidence-based segmentation** in violence detection 
 ### Base Dataset (DenseNet121 Pre-training)
 **[Download Base Dataset](https://drive.google.com/file/d/1Mvbi5xPrcvEexSQqAgZK3vrx9ugxsJHk/view?usp=drive_link)**
 - Training/validation images with standard splits
-- Test set: 2,200 violence + 2,220 non-violence images
+- Test set: 2,200 violence + 2,200 non-violence images
 
 ### Complete Research Dataset  
 **[Download Full Dataset](https://drive.google.com/file/d/1_DBKm9edOJLhIKFH2GWW_6hOGh5mBSdP/view?usp=drive_link)**
@@ -30,7 +30,7 @@ violence-detection-research/
 │   │       └── non_violence/       # Validation non-violence images
 │   └── test/
 │       ├── violence/               # 2,200 test violence images
-│       └── non_violence/           # 2,220 test non-violence images
+│       └── non_violence/           # 2,200 test non-violence images
 ├── confidence-segmentation-dataset/ # From second download link
 │   ├── dataset/
 │   │   ├── dataset1/               # Base model training (6K)
@@ -41,7 +41,7 @@ violence-detection-research/
 │   │       └── non_violence/       # Extended non-violence collection
 │   └── test/                       # Consistent evaluation set
 │       ├── violence/               # 2,200 test violence images
-│       └── non_violence/           # 2,220 test non-violence images
+│       └── non_violence/           # 2,200 test non-violence images
 └── generated_subsets/              # Created during confidence segmentation
     ├── safe/                       # High confidence training cases
     ├── border/                     # Ambiguous training cases
