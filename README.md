@@ -18,6 +18,7 @@ Dataset for research on **confidence-based segmentation** in violence detection 
 - Same test set for consistent evaluation
 
 ## 📊 Dataset Structure
+```python
 violence-detection-research/
 ├── base-violence-dataset/           # From first download link
 │   ├── dataset/
@@ -45,7 +46,7 @@ violence-detection-research/
     ├── safe/                       # High confidence training cases
     ├── border/                     # Ambiguous training cases
     └── average/                    # Representative training cases
-
+```
 ## 🧠 Methodology
 
 1. **Train base model** with dataset1 (6K images)
@@ -88,7 +89,7 @@ average_subset = extract_average_cases(dataset2, confidence_scores)
 # 4. Train & evaluate specialized models
 safe_model = train_densenet121(safe_subset)
 results = evaluate_all_models(test_set)
-
+```
 
 
 ## ⚖️ License & Ethics
